@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card mt-5 w-50 " style="width: 18rem;">
+        <div class="card-body mt-3 ">
+          <h1 class="card-title text-center">Smart Login System</h1>
+          <input type="text" name="name" id="userName" class="form-control text-white  my-3" placeholder="Enter your name">
+          
+          <input type="email"id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control  text-white my-3" placeholder="Enter your email">
+          <input type="password" id="password" name="password" class="form-control text-white my-3" placeholder="Enter password">
+          
+          <p id="alertMessage" class="d-none text-center"></p>
+
+          <button id="signUpBtn" class="btn btn-outline-info w-100 my-3">Sign Up</button>
+
+
+          <p class="text-center text-white">You have an account?  <a class="text-white" href="login.html">Signin</a></p>
+           
+
+        </div>
+           
+            
+           
+      </div>
+    <script src="js/signup.js"></script>
+</body>
+</html>

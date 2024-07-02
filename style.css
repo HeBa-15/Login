@@ -1,0 +1,46 @@
+body{
+    background-color: #24353f;
+
+}
+h2{
+    color: #17a2b8 ;
+}
+
+ .card .card-body h1{
+    color: #17a2b8 ;
+}
+
+
+.card{
+    padding: 20px;
+    margin: auto;
+    background-color: #24353f;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+    background-color:transparent !important ;
+}
+input::placeholder{
+    color: gray !important;;
+}
+
+
+
+
+a {
+       
+        text-decoration: none;
+       
+        
+}
+
+.content{
+
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.content p{
+    color: #17a2b8 ;
+    font-size: 70px;
+
+}
